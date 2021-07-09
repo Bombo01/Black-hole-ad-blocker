@@ -8,8 +8,6 @@ let pattern = [];
 
 function doSomething(json) {
     pattern = Object.values(json);
-    console.log(pattern);
-    console.log(pattern.length);
 
     let redirection = 0;
 
