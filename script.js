@@ -1,29 +1,26 @@
-const url = chrome.runtime.getURL('data/blacklist.json');
-
-fetch(url)
-    .then((response) => response.json()) //assuming file contains json
-    .then((json) => doSomething(json));
+let redirection = 0;
 
 let pattern = [];
+let tabs = [];
 
-function doSomething(json) {
-    pattern = Object.values(json);
-
-    let redirection = 0;
-
-    function redirect(requestDetails) {
-        redirection++;
-        if (redirection !== 0) {
-            chrome.browserAction.setBadgeText({text: '' + redirection});
-        }
-        return {
-            redirectUrl: "https://0.0.0.0/"
-        };
-    }
+chrome.storage.local.get(["pattern"], function(items){
+    pattern = items['pattern'];
 
     chrome.webRequest.onBeforeRequest.addListener(
         redirect,
         {urls: pattern},
         ["blocking"]
     );
+});
+
+function redirect(requestDetails) {
+    console.log(requestDetails.url + " redirected");
+    redirection++;
+
+    if (redirection !== 0) {
+        chrome.browserAction.setBadgeText({text: '' + redirection});
+    }
+    return {
+        redirectUrl: "https://0.0.0.0/"
+    };
 }

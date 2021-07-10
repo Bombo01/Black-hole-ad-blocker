@@ -19,7 +19,10 @@
     "128": "/images/blackhole_128.png"
   },
   "background": {
-    "service_worker": "script.js"
+    "scripts": [
+      "background.js",
+      "script.js"
+    ]
   },
   "permissions": [
     "storage",
