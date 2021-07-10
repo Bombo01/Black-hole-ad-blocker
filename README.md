@@ -1,4 +1,4 @@
-# Chromium ad-blocker
+# Chromium ad-blocker ![Chromium ad-blocker logo](/images/blackhole_48.png)
 
 Chromium ad-blocker is an invisible ad-blocker created for Chromium-based browser (Brave, Chrome...).
 
@@ -12,7 +12,7 @@ Chromium ad-blocker is an invisible ad-blocker created for Chromium-based browse
 
 ## How it works :hammer_and_wrench:
 
-When a request is made by the client it passes through the extension that redirects the sites in the blacklist to a non-existent one which,therefore, responds with an error, and the advertisement cannot load.
+When a request is made by the client it passes through the extension that redirects the sites in the blacklist to a non-existent one which, therefore, responds with an error, and the advertisement cannot load.
 
 In this way, the sites fail to recognize this as an ad-blocker but simply as a site error.
 
