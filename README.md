@@ -1,6 +1,6 @@
 # Black hole ad blocker ![Black hole ad-blocker logo](/images/blackhole_32.png)
 
-Chromium ad-blocker is an invisible ad-blocker created for Chromium-based browser (Brave, Chrome...).
+Black hole ad-blocker is an invisible ad-blocker created for Chromium-based browser (Brave, Chrome...).
 
 > This project is currently under development, therefore it may not work as expected.
 
