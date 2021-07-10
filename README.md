@@ -4,6 +4,11 @@ Black hole ad-blocker is an invisible ad-blocker created for Chromium-based brow
 
 > This project is currently under development, therefore it may not work as expected.
 
+![Working_with](https://img.shields.io/badge/Working%20with-chromium-yellow?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/Bombo01/Black-hole-ad-blocker?style=for-the-badge)
+![Release](https://img.shields.io/badge/Release-0.1%20(pre%20release)-success?style=for-the-badge)
+![Blocked_sites](https://img.shields.io/badge/blocked%20sites-49182-red?style=for-the-badge)
+
 ## Table of content
 
 - [How it works](#how-it-works-hammer_and_wrench)
@@ -31,4 +36,6 @@ Installing the preview is quite easy.
 ## Blocked sites :no_entry:
 
 List of sites loaded: 
-- [Adguard DNS](https://v.firebog.net/hosts/AdguardDNS.txt) updated on 08/07/2021
+- [Adguard DNS](https://v.firebog.net/hosts/AdguardDNS.txt) updated on 10/07/2021
+- [Easy privacy](https://v.firebog.net/hosts/Easyprivacy.txt) updated on 10/07/2021
+- [Latest domain](https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt) updated on 10/07/2021
