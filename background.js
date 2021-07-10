@@ -13,6 +13,3 @@ function doSomething(json) {
     chrome.storage.local.set({"pattern": patternBack}, function () {
     });
 }
-
-let tabsBack = [];
-

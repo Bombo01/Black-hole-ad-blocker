@@ -3,7 +3,7 @@ let redirection = 0;
 let pattern = [];
 let tabs = [];
 
-chrome.storage.local.get(["pattern"], function(items){
+chrome.storage.local.get(["pattern"], function (items) {
     pattern = items['pattern'];
 
     chrome.webRequest.onBeforeRequest.addListener(

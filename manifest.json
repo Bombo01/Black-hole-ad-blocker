@@ -1,6 +1,6 @@
 {
-  "name": "Black hole ad blocker",
-  "description": "Black hole ad blocker is an invisible ad-blocker created for Chromium-based browser",
+  "name": "Black hole",
+  "description": "Black hole is an invisible ad-blocker created for Chromium-based browser",
   "version": "0.1",
   "manifest_version": 2,
   "browser_action": {
