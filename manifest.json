@@ -29,6 +29,7 @@
     "activeTab",
     "webRequest",
     "webRequestBlocking",
+    "webNavigation",
     "<all_urls>"
   ],
   "web_accessible_resources": [
