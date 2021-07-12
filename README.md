@@ -6,7 +6,7 @@ Black hole ad-blocker is an invisible ad-blocker created for Chromium-based brow
 
 ![Working_with](https://img.shields.io/badge/Working%20with-chromium-yellow?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Bombo01/Black-hole-ad-blocker?style=for-the-badge)
-![Release](https://img.shields.io/badge/Release-0.1%20(pre%20release)-success?style=for-the-badge)
+![Release](https://img.shields.io/badge/Release-0.2%20(pre%20release)-success?style=for-the-badge)
 ![Blocked_sites](https://img.shields.io/badge/blocked%20sites-49182-red?style=for-the-badge)
 
 ## Table of content

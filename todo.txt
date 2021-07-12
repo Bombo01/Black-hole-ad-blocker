@@ -1,3 +1,2 @@
 TODO:
     - 3 different backlist (normal, aggressive, ultra-aggressive)
-    - Different badge for each tag

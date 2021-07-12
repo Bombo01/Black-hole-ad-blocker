@@ -1,6 +1,6 @@
-let redirection = 0;
+//let redirection = 0;
 let id = 0;
-let tabUrl = "sos";
+let __tabs = [];
 
 let pattern = [];
 
@@ -16,11 +16,21 @@ chrome.storage.local.get(["pattern"], function (items) {
 
 function redirect(requestDetails) {
     console.log("%c " + requestDetails.url + " redirected", 'color: #00ff00');
-    redirection++;
+    //redirection++;
 
-    chrome.tabs.query({active: true}, function(tabs){
+    chrome.tabs.query({active: true}, function (tabs) {
         id = tabs[0].id;
-        tabUrl = tabs[0].url;
+
+        __tabs.push(id.toString())
+        console.log(__tabs);
+
+        let count = 0;
+        for (let i = 0; i < __tabs.length; i++) {
+            if (__tabs[i].toString() === id.toString()) {
+                count++;
+            }
+        }
+        chrome.browserAction.setBadgeText({tabId: id, text: "" + count});
     });
 
     return {
