@@ -1,7 +1,7 @@
 {
   "name": "Black hole",
   "description": "Black hole is an invisible ad-blocker created for Chromium-based browser",
-  "version": "0.2",
+  "version": "0.3",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "popup.html",
@@ -30,6 +30,8 @@
     "webRequest",
     "webRequestBlocking",
     "webNavigation",
+    "management",
+    "unlimitedStorage",
     "<all_urls>"
   ],
   "web_accessible_resources": [

@@ -1,2 +1,1 @@
 TODO:
-    - 3 different backlist (normal, aggressive, ultra-aggressive)
