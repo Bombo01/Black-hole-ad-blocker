@@ -10,21 +10,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <style>
         html, body {
-            margin: 0;
+            margin: 0.3rem;
             padding: 0;
-            width: 3rem;
+            width: 7.6rem;
         }
 
         #contact {
             position: relative;
-            top: 10%;
             font-size: 24px;
             text-align: center;
+            outline: none;
+            margin-bottom: 0.6rem;
         }
 
         #github {
             color: inherit;
             text-decoration: inherit;
+        }
+
+        #options {
+            font-family: 'Roboto', sans-serif;
+            width: 7rem;
+        }
+
+        #corpo {
+            width: 7rem;
+            margin-bottom: 0.75rem;
         }
 
         p {
@@ -34,11 +45,13 @@
     <title>Chromium ad-blocker</title>
 </head>
 <body>
-<div id="contact">
+<div id="corpo">
     <select id="options">
         <option value="1">Normal</option>
         <option value="2">Aggressive</option>
     </select>
+</div>
+<div id="contact">
     <a href="https://github.com/Bombo01/Black-hole-ad-blocker" target="_blank" id="github"><i class="fab fa-github"></i></a>
 </div>
 <script src="popup.js"></script>
