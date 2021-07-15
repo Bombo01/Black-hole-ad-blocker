@@ -1,4 +1,7 @@
-# Black hole ad blocker ![Black hole ad-blocker logo](/images/blackhole_32.png)
+<p align="center">
+  <img src="https://github.com/Bombo01/Black-hole-ad-blocker/blob/master/images/blackhole_128.png" width="75" height="75"/>
+</p>
+<h1 align="center">Black hole</h1>
 
 Black hole ad-blocker is an invisible ad-blocker created for Chromium-based browser (Brave, Chrome...).
 
