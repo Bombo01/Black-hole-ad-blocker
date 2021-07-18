@@ -19,7 +19,6 @@
             position: relative;
             font-size: 24px;
             text-align: center;
-            outline: none;
             margin-bottom: 0.6rem;
         }
 
@@ -30,6 +29,7 @@
 
         #options {
             font-family: 'Roboto', sans-serif;
+            outline: none;
             width: 7rem;
         }
 
@@ -47,7 +47,8 @@
 <body>
 <div id="corpo">
     <select id="options">
-        <option value="1">Normal</option>
+        <option value="0">Off</option>
+        <option value="1" selected>Normal</option>
         <option value="2">Aggressive</option>
     </select>
 </div>
