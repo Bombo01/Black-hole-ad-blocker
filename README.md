@@ -9,32 +9,53 @@ Black hole ad-blocker is an invisible ad-blocker created for Chromium-based brow
 
 ![Working_with](https://img.shields.io/badge/Working%20with-chromium-yellow?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Bombo01/Black-hole-ad-blocker?style=for-the-badge)
-![Release](https://img.shields.io/badge/Release-0.3%20(pre%20release)-success?style=for-the-badge)
+![Release](https://img.shields.io/badge/Release-1.0-success?style=for-the-badge)
 ![Blocked_sites](https://img.shields.io/badge/blocked%20sites-%3E%2043926-red?style=for-the-badge)
 
 ## Table of content
 
 - [How it works](#how-it-works-hammer_and_wrench)
 - [Install the preview](#install-the-preview-file_folder)
+- [Making your blacklist](#making-your-blacklist-page_facing_up)
 - [Blocked sites](#blocked-sites-no_entry)
 
 ## How it works :hammer_and_wrench:
 
 When a request is made by the client it passes through the extension that redirects the sites in the blacklist to a non-existent one which, therefore, responds with an error, and the advertisement cannot load.
 
-In this way, the sites fail to recognize this as an ad-blocker but simply as a site error.
+In this way, the sites fail to recognize this as an ad-blocker but simply as an internal error.
 
 ## Install the preview :file_folder:
 
 Installing the preview is quite easy.
 
 1. Download the source code and extract the folder
-2. Go on your Chromium browser and open extensions settings as
+2. Go in [background.js](background.js) at line 3
+```javascript 
+  let url = chrome.runtime.getURL('data/blacklist_normal.json');
+```
+3. Edit `blacklist_normal.json` with your blacklist or keep this one
+4. Go on your Chromium browser and open extensions settings as
     - `brave://extensions/`
     - `chrome://extensions/`
-3. Enable developer mode
-4. Click on Load Unpacked and select your Unzip folder
-5. Now the extension is loaded.
+5. Enable developer mode
+6. Click on Load Unpacked and select the folder (you probably have to reload the extension)
+7. Now the extension is loaded.
+
+## Making your blacklist :page_facing_up:
+
+I created 2 file for you:
+- [Normal](data/blacklist_normal.json) which blocks 43921 sites
+- [Aggressive](data/blacklist_aggressive.json) which blocks 189416 sites
+
+But you can make your own blacklist. It must be a json array like this:
+```json
+[
+  "*://*.site1.tld/*",
+  ...
+]
+```
+I suggest you [this](https://firebog.net/) collection of blocklist.
 
 ## Blocked sites :no_entry:
 
