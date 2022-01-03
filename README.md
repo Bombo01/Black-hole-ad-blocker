@@ -57,6 +57,15 @@ But you can make your own blacklist. It must be a json array like this:
 ```
 I suggest you [this](https://firebog.net/) collection of blocklist.
 
+I created a simple [java app](helper/helper.java) which you can use to create your own blocklist.  
+You only need to create a file like [example.txt](helper/example.txt) and then running these commands:
+```bash
+  cd helper
+  javac helper.java
+  java helper example.txt
+```
+The output will be like [output.json](helper/output.json).
+
 ## Blocked sites :no_entry:
 
 List of sites loaded: 

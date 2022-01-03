@@ -1,0 +1,34 @@
+# Title: KADhosts
+# Description: Filtry chroniace przed roznego rodzaju przekretami i oszustwami, takimi jak np. subskrypcje SMS, wirusy i falszywe sklepy internetowe. Oprocz wlasnego zestawu, zawieraja one rowniez wpisy z list stworzonych przez takie zespoly jak np. CERT Polska, legalniewsieci.pl i KNF.
+# Last modified: Tue, 13 Jul 2021, 13:07 UTC+02
+# Version: 2021.7.13.0
+# Expires: 2 days
+# Website: https://kadantiscam.netlify.app/
+# Repository: https://github.com/PolishFiltersTeam/KADhosts
+# Based on: https://github.com/PolishFiltersTeam/KAD
+# License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+#
+# (EN) WARNING: Sites listed below can be harmful. Please, do not visit them if you don't know what you're doing!
+# (PL) UWAGA: Strony ponizej moga byc szkodliwe. Prosze, nie wchodz na nie, jesli nie wiesz co robisz!
+#
+#
+#
+# Podejrzane i/lub strony polaczone z innymi oszustwami
+#@ >>>>>>>> https://raw.githubusercontent.com/PolishFiltersTeam/KAD/master/sections/podejrzane_inne_oszustwa.txt => hosts
+1slo.pl
+2easy.pl
+4ksport.pl
+4life.com
+4madesigngallerie.com.pl
+4shoes.pl
+7tools.eu
+9print.pl
+24-sklep.pl
+a1a.pl
+a2multimedia.pl
+abc.prawo.link
+acaiberryextreme.pl
+accreconsult.pl
+achae.com
+acontrario.pl
+actus.org.pl
